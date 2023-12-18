@@ -13,6 +13,29 @@
 		80B991BF2B2EFE74005B5844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B991BD2B2EFE74005B5844 /* Main.storyboard */; };
 		80B991C12B2EFE78005B5844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B991C02B2EFE78005B5844 /* Assets.xcassets */; };
 		80B991C42B2EFE78005B5844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B991C22B2EFE78005B5844 /* LaunchScreen.storyboard */; };
+		80B991CF2B2EFF2A005B5844 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 80B991CE2B2EFF2A005B5844 /* SnapKit */; };
+		80B991D12B2EFF2A005B5844 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 80B991D02B2EFF2A005B5844 /* SnapKit-Dynamic */; };
+		80B991D32B2F0468005B5844 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991D22B2F0468005B5844 /* ContainerViewController.swift */; };
+		80B991D52B2F0487005B5844 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991D42B2F0487005B5844 /* MenuViewController.swift */; };
+		80B991DC2B2F94C5005B5844 /* FeedCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991DB2B2F94C5005B5844 /* FeedCellInfo.swift */; };
+		80B991DE2B2F94DC005B5844 /* FeedPromoCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991DD2B2F94DC005B5844 /* FeedPromoCellInfo.swift */; };
+		80B991E02B2F9500005B5844 /* BlockLabelCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991DF2B2F9500005B5844 /* BlockLabelCellInfo.swift */; };
+		80B991E22B2F9535005B5844 /* FeedBannerCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991E12B2F9535005B5844 /* FeedBannerCellInfo.swift */; };
+		80B991E42B2F954B005B5844 /* FeedCatalogCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991E32B2F954B005B5844 /* FeedCatalogCellInfo.swift */; };
+		80B991E62B2F9628005B5844 /* FeedSectionSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991E52B2F9628005B5844 /* FeedSectionSetCell.swift */; };
+		80B991E82B2F9643005B5844 /* FeedPromotionsSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991E72B2F9643005B5844 /* FeedPromotionsSetCell.swift */; };
+		80B991EA2B2F9664005B5844 /* FeedBlockLabelSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991E92B2F9664005B5844 /* FeedBlockLabelSetCell.swift */; };
+		80B991EC2B2F968D005B5844 /* FeedBannerSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991EB2B2F968D005B5844 /* FeedBannerSetCell.swift */; };
+		80B991EE2B2F96AA005B5844 /* FeedCatalogSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991ED2B2F96AA005B5844 /* FeedCatalogSetCell.swift */; };
+		80B991F02B2F96D9005B5844 /* SectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991EF2B2F96D9005B5844 /* SectionItemCell.swift */; };
+		80B991F22B2F96FE005B5844 /* PromotionsItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991F12B2F96FE005B5844 /* PromotionsItemCell.swift */; };
+		80B991F42B2F976B005B5844 /* BlockLabelItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991F32B2F976B005B5844 /* BlockLabelItemCell.swift */; };
+		80B991F62B2F978F005B5844 /* BannerItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991F52B2F978F005B5844 /* BannerItemCell.swift */; };
+		80B991F82B2F97BC005B5844 /* CatalogItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991F72B2F97BC005B5844 /* CatalogItemCell.swift */; };
+		80B991FB2B2F9BC2005B5844 /* FeedItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991FA2B2F9BC2005B5844 /* FeedItemType.swift */; };
+		80B991FD2B2FA809005B5844 /* FeedSearchCellInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991FC2B2FA809005B5844 /* FeedSearchCellInfo.swift */; };
+		80B992002B2FA8BF005B5844 /* SearchItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B991FF2B2FA8BF005B5844 /* SearchItemCell.swift */; };
+		80B992022B2FAB83005B5844 /* FeedSearchSetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B992012B2FAB83005B5844 /* FeedSearchSetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +47,27 @@
 		80B991C02B2EFE78005B5844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B991C32B2EFE78005B5844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B991C52B2EFE78005B5844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B991D22B2F0468005B5844 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		80B991D42B2F0487005B5844 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		80B991DB2B2F94C5005B5844 /* FeedCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellInfo.swift; sourceTree = "<group>"; };
+		80B991DD2B2F94DC005B5844 /* FeedPromoCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPromoCellInfo.swift; sourceTree = "<group>"; };
+		80B991DF2B2F9500005B5844 /* BlockLabelCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockLabelCellInfo.swift; sourceTree = "<group>"; };
+		80B991E12B2F9535005B5844 /* FeedBannerCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBannerCellInfo.swift; sourceTree = "<group>"; };
+		80B991E32B2F954B005B5844 /* FeedCatalogCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCatalogCellInfo.swift; sourceTree = "<group>"; };
+		80B991E52B2F9628005B5844 /* FeedSectionSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSectionSetCell.swift; sourceTree = "<group>"; };
+		80B991E72B2F9643005B5844 /* FeedPromotionsSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedPromotionsSetCell.swift; sourceTree = "<group>"; };
+		80B991E92B2F9664005B5844 /* FeedBlockLabelSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBlockLabelSetCell.swift; sourceTree = "<group>"; };
+		80B991EB2B2F968D005B5844 /* FeedBannerSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBannerSetCell.swift; sourceTree = "<group>"; };
+		80B991ED2B2F96AA005B5844 /* FeedCatalogSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCatalogSetCell.swift; sourceTree = "<group>"; };
+		80B991EF2B2F96D9005B5844 /* SectionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItemCell.swift; sourceTree = "<group>"; };
+		80B991F12B2F96FE005B5844 /* PromotionsItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsItemCell.swift; sourceTree = "<group>"; };
+		80B991F32B2F976B005B5844 /* BlockLabelItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockLabelItemCell.swift; sourceTree = "<group>"; };
+		80B991F52B2F978F005B5844 /* BannerItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerItemCell.swift; sourceTree = "<group>"; };
+		80B991F72B2F97BC005B5844 /* CatalogItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogItemCell.swift; sourceTree = "<group>"; };
+		80B991FA2B2F9BC2005B5844 /* FeedItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemType.swift; sourceTree = "<group>"; };
+		80B991FC2B2FA809005B5844 /* FeedSearchCellInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSearchCellInfo.swift; sourceTree = "<group>"; };
+		80B991FF2B2FA8BF005B5844 /* SearchItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchItemCell.swift; sourceTree = "<group>"; };
+		80B992012B2FAB83005B5844 /* FeedSearchSetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSearchSetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B991CF2B2EFF2A005B5844 /* SnapKit in Frameworks */,
+				80B991D12B2EFF2A005B5844 /* SnapKit-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +102,84 @@
 		80B991B62B2EFE74005B5844 /* gutax */ = {
 			isa = PBXGroup;
 			children = (
+				80B991CB2B2EFEA6005B5844 /* Application */,
+				80B991CC2B2EFEC0005B5844 /* Resources */,
+				80B991F92B2F9B63005B5844 /* Model */,
+				80B992032B2FCC7C005B5844 /* View */,
+				80B991D62B2F04C2005B5844 /* Controllers */,
+			);
+			path = gutax;
+			sourceTree = "<group>";
+		};
+		80B991CB2B2EFEA6005B5844 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				80B991B72B2EFE74005B5844 /* AppDelegate.swift */,
 				80B991B92B2EFE74005B5844 /* SceneDelegate.swift */,
-				80B991BB2B2EFE74005B5844 /* ViewController.swift */,
-				80B991BD2B2EFE74005B5844 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		80B991CC2B2EFEC0005B5844 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				80B991C02B2EFE78005B5844 /* Assets.xcassets */,
 				80B991C22B2EFE78005B5844 /* LaunchScreen.storyboard */,
 				80B991C52B2EFE78005B5844 /* Info.plist */,
 			);
-			path = gutax;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		80B991D62B2F04C2005B5844 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				80B991D22B2F0468005B5844 /* ContainerViewController.swift */,
+				80B991BB2B2EFE74005B5844 /* ViewController.swift */,
+				80B991D42B2F0487005B5844 /* MenuViewController.swift */,
+				80B991DA2B2F948C005B5844 /* Cell */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		80B991DA2B2F948C005B5844 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				80B991E52B2F9628005B5844 /* FeedSectionSetCell.swift */,
+				80B991E72B2F9643005B5844 /* FeedPromotionsSetCell.swift */,
+				80B991E92B2F9664005B5844 /* FeedBlockLabelSetCell.swift */,
+				80B991EB2B2F968D005B5844 /* FeedBannerSetCell.swift */,
+				80B991ED2B2F96AA005B5844 /* FeedCatalogSetCell.swift */,
+				80B992012B2FAB83005B5844 /* FeedSearchSetCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		80B991F92B2F9B63005B5844 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80B991FA2B2F9BC2005B5844 /* FeedItemType.swift */,
+				80B991DB2B2F94C5005B5844 /* FeedCellInfo.swift */,
+				80B991DD2B2F94DC005B5844 /* FeedPromoCellInfo.swift */,
+				80B991DF2B2F9500005B5844 /* BlockLabelCellInfo.swift */,
+				80B991E12B2F9535005B5844 /* FeedBannerCellInfo.swift */,
+				80B991E32B2F954B005B5844 /* FeedCatalogCellInfo.swift */,
+				80B991FC2B2FA809005B5844 /* FeedSearchCellInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80B992032B2FCC7C005B5844 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				80B991EF2B2F96D9005B5844 /* SectionItemCell.swift */,
+				80B991F12B2F96FE005B5844 /* PromotionsItemCell.swift */,
+				80B991F32B2F976B005B5844 /* BlockLabelItemCell.swift */,
+				80B991F52B2F978F005B5844 /* BannerItemCell.swift */,
+				80B991F72B2F97BC005B5844 /* CatalogItemCell.swift */,
+				80B991FF2B2FA8BF005B5844 /* SearchItemCell.swift */,
+				80B991BD2B2EFE74005B5844 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +198,10 @@
 			dependencies = (
 			);
 			name = gutax;
+			packageProductDependencies = (
+				80B991CE2B2EFF2A005B5844 /* SnapKit */,
+				80B991D02B2EFF2A005B5844 /* SnapKit-Dynamic */,
+			);
 			productName = gutax;
 			productReference = 80B991B42B2EFE74005B5844 /* gutax.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +230,9 @@
 				Base,
 			);
 			mainGroup = 80B991AB2B2EFE74005B5844;
+			packageReferences = (
+				80B991CD2B2EFF2A005B5844 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 80B991B52B2EFE74005B5844 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +260,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B992022B2FAB83005B5844 /* FeedSearchSetCell.swift in Sources */,
+				80B991EA2B2F9664005B5844 /* FeedBlockLabelSetCell.swift in Sources */,
+				80B991E82B2F9643005B5844 /* FeedPromotionsSetCell.swift in Sources */,
+				80B991F82B2F97BC005B5844 /* CatalogItemCell.swift in Sources */,
 				80B991BC2B2EFE74005B5844 /* ViewController.swift in Sources */,
+				80B991D52B2F0487005B5844 /* MenuViewController.swift in Sources */,
+				80B991F22B2F96FE005B5844 /* PromotionsItemCell.swift in Sources */,
+				80B991F02B2F96D9005B5844 /* SectionItemCell.swift in Sources */,
+				80B991F62B2F978F005B5844 /* BannerItemCell.swift in Sources */,
+				80B991E02B2F9500005B5844 /* BlockLabelCellInfo.swift in Sources */,
+				80B991DE2B2F94DC005B5844 /* FeedPromoCellInfo.swift in Sources */,
 				80B991B82B2EFE74005B5844 /* AppDelegate.swift in Sources */,
+				80B991E62B2F9628005B5844 /* FeedSectionSetCell.swift in Sources */,
+				80B991EE2B2F96AA005B5844 /* FeedCatalogSetCell.swift in Sources */,
+				80B991D32B2F0468005B5844 /* ContainerViewController.swift in Sources */,
 				80B991BA2B2EFE74005B5844 /* SceneDelegate.swift in Sources */,
+				80B991E22B2F9535005B5844 /* FeedBannerCellInfo.swift in Sources */,
+				80B991DC2B2F94C5005B5844 /* FeedCellInfo.swift in Sources */,
+				80B991F42B2F976B005B5844 /* BlockLabelItemCell.swift in Sources */,
+				80B991EC2B2F968D005B5844 /* FeedBannerSetCell.swift in Sources */,
+				80B991FD2B2FA809005B5844 /* FeedSearchCellInfo.swift in Sources */,
+				80B991FB2B2F9BC2005B5844 /* FeedItemType.swift in Sources */,
+				80B991E42B2F954B005B5844 /* FeedCatalogCellInfo.swift in Sources */,
+				80B992002B2FA8BF005B5844 /* SearchItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +437,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U7Z7662R7M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gutax/Info.plist;
+				INFOPLIST_FILE = gutax/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +465,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U7Z7662R7M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gutax/Info.plist;
+				INFOPLIST_FILE = gutax/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -363,6 +506,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		80B991CD2B2EFF2A005B5844 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		80B991CE2B2EFF2A005B5844 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80B991CD2B2EFF2A005B5844 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		80B991D02B2EFF2A005B5844 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80B991CD2B2EFF2A005B5844 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 80B991AC2B2EFE74005B5844 /* Project object */;
 }
